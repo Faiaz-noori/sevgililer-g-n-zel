@@ -1,0 +1,126 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee;
+    color: #c62828;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* Fotoğraf Galerisi */
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Mesaj */
+.video-message {
+    margin-top: 30px;
+}
+
+.video-message h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Sürpriz Butonu */
+.surprise {
+    margin-top: 30px;
+}
+
+.surprise button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.surprise button:hover {
+    background-color: #c2185b;
+}
+
+.hidden {
+    display: none;
+}
+
+#surprise-text {
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #e91e63;
+}
+
+/* Şiir Bölümü */
+.poem {
+    margin-top: 30px;
+}
+
+.poem h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.poem p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Son Mesaj */
+.final-message {
+    margin-top: 30px;
+}
+
+.final-message h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.final-message p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+
